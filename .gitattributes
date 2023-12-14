@@ -1,0 +1,14 @@
+third_party/libpag/lib/linux/libEGL.so filter=lfs diff=lfs merge=lfs -text
+third_party/libpag/lib/linux/libGLESv2.so filter=lfs diff=lfs merge=lfs -text
+third_party/libpag/lib/linux/libpag.so filter=lfs diff=lfs merge=lfs -text
+third_party/libpag/lib/win/libGLESv2.lib filter=lfs diff=lfs merge=lfs -text
+third_party/libpag/lib/win/pag.lib filter=lfs diff=lfs merge=lfs -text
+third_party/libpag/lib/win/libEGL.lib filter=lfs diff=lfs merge=lfs -text
+third_party/libpag/lib/win/libEGL.dll filter=lfs diff=lfs merge=lfs -text
+third_party/libpag/lib/win/libGLESv2.dll filter=lfs diff=lfs merge=lfs -text
+third_party/libpag/lib/win/pag.dll filter=lfs diff=lfs merge=lfs -text
+third_party/libpag/lib/macos/arm64/libpag.dylib filter=lfs diff=lfs merge=lfs -text
+third_party/libpag/lib/macos/x86_64/libpag.dylib filter=lfs diff=lfs merge=lfs -text
+pag_samples/FiraCode-SemiBold.ttf filter=lfs diff=lfs merge=lfs -text
+pag_samples/test3.aep filter=lfs diff=lfs merge=lfs -text
+pag_samples/test3.pag filter=lfs diff=lfs merge=lfs -text
